@@ -24,10 +24,6 @@ body {
     color: #f39c12;
 }
 
-.navbar {
-    background: linear-gradient(90deg, #333, #555);
-}
-
 h1 {
     margin-bottom: 20px;
     color: #333;
