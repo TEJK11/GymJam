@@ -53,6 +53,23 @@ h1 {
     color: #333;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #444;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #555;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
