@@ -3,7 +3,6 @@
     margin:0;
 }
 
-
 body {
     display: flex;
     justify-content: center;
@@ -65,7 +64,6 @@ input, select, button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top: 5px;
 }
 
 button {
