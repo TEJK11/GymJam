@@ -1,15 +1,18 @@
-*{
+* {
     padding: 0px;
-    margin:0;
+    margin: 0;
 }
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #333, #555);
+    color: #eee;
 }
 
 .navbar-brand {
@@ -42,6 +45,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     border: 1px solid #ccc;
+    color: #333;
 }
 
 h1 {
@@ -77,11 +81,33 @@ button:hover {
     background-color: #218838;
 }
 
-.results {
+.results, #ffmiResults {
     margin-top: 20px;
 }
 
-#bmrResult {
+#bmrResult, #totalBodyFat, #leanWeight, #ffmi, #adjustedFfmi {
     font-size: 18px;
     color: #333;
+}
+
+#ffmiResults {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ffmiResults h3 {
+    color: #444;
+}
+
+#ffmiResults p {
+    font-size: 18px;
+    color: #555;
+}
+
+canvas {
+    margin: 20px auto;
+    display: block;
 }
