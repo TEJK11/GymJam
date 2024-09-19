@@ -45,7 +45,7 @@
               <a class="nav-link" href="caloriecounter.html">Calorie Counter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="foryoupage.html">For You Page</a>
+              <a class="nav-link" href="foryoupage.html">For You</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Login/Sign-Up">Login/Sign Up</a>
@@ -97,18 +97,18 @@
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">John Doe</h5>
+                <h5 class="card-title">Piyush Tyagi</h5>
                 <p class="card-text">Specialization: Strength Training</p>
-                <a href="#" class="btn btn-primary">Book a Session</a>
+                <a href="#" class="btn btn-secondary">Book a Session</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Jane Smith</h5>
+                <h5 class="card-title">Tejas Kamath</h5>
                 <p class="card-text">Specialization: Yoga and Flexibility</p>
-                <a href="#" class="btn btn-primary">Book a Session</a>
+                <a href="#" class="btn btn-secondary">Book a Session</a>
               </div>
             </div>
           </div>
@@ -285,4 +285,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
+  <script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.navbar').addClass('scrolled');
+        } else {
+            $('.navbar').removeClass('scrolled');
+        }
+    });
+</script>
 </html>
