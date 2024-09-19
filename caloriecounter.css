@@ -84,6 +84,7 @@ ul li {
   border-radius: 8px;
   transition: background-color 0.3s ease;
   margin: 10px;
+  box-shadow: rgba(248, 248, 248, 0.1) 0px 2px 4px;
 }
 
 ul li:hover {
