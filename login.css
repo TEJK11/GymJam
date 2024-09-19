@@ -65,7 +65,7 @@ body {
 
 .form .forgot-password a {
   font-size: 11px;
-  color: #00ff99; /* Changed to green */
+  color: #000000; /* Changed to green */
   text-decoration: none;
 }
 
@@ -150,6 +150,6 @@ body {
 
 .agreement a {
   text-decoration: none;
-  color: #00ff99; /* Changed to green */
+  color: #000000; /* Changed to green */
   font-size: 9px;
 }
