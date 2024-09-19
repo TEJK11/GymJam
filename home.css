@@ -90,6 +90,7 @@ ul li strong {
   color: #f39c12;
 }
 
+
 .image-container {
   text-align: center;
   margin-bottom: 20px;
@@ -134,6 +135,7 @@ footer a:hover {
   width: 200px;
   height: 100px;
   object-fit: cover;
+  padding-bottom: 5px;
 }
 
 #home {
@@ -141,7 +143,56 @@ footer a:hover {
   height: 80vh;
   background-size: cover;
   position: relative;
+  padding-bottom: 45%;
 }
+
+.gym-photo {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  width: 120%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+h1, h2 {
+  color: white;
+}
+
+.btn-get-started {
+  display: inline-block;
+  background-color: #5f5f5f;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 3px solid #211c14;
+  padding-bottom: 20px;
+}
+
+.btn-get-started:hover {
+  background-color: #000000;
+}
+
 
 #home:before {
   content: "";
@@ -354,4 +405,47 @@ section {
     font-size: 18px;
     line-height: 24px;
   }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.owners {
+  background-color: #555;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.icon-box {
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 40px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+  background: #2d2d2d;
+  padding: 60px 0;
+}
+
+.cta-btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 20px;
+  border: 2px solid #12d9f3;
+  color: #fff;
+}
+
+.cta-btn:hover {
+  background: #a0f4ff;
 }
